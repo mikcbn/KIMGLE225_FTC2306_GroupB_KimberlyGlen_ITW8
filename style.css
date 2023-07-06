@@ -1,8 +1,15 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .container {
-    border: 12px solid #6D213C;
+    margin: 0 auto;
     padding: 20px;
-    max-width: 100%;
     box-sizing: border-box;
+    max-width: 100%;
+    width: 100%;
+    border: 12px solid #6D213C;
 }
 
 
@@ -25,11 +32,13 @@ h5 {
     padding: 10px;
     color: #201f1f;
     margin-top: 20px;
+    border-radius: 5px;
 }
 
 #Name {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 h2 {
     background-color: #DDA77B;
 }
@@ -52,28 +61,28 @@ p {
     text-align: center;
     font-size: 1.5vw;
     background-color: #fff2c5;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
 }
 
 p {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #201f1f;
 }
 
 h1 {
     color: rgb(12, 12, 12);
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 h2 {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: bisque;
 }
 
 h3 {
-    font-family:'Trebuchet MS',
+    font-family: 'Trebuchet MS',
         'Lucida Sans Unicode',
         'Lucida Grande',
         'Lucida Sans',
@@ -115,6 +124,7 @@ h5 {
 .hero-content p {
     font-size: 24px;
 }
+
 .hero {
     position: relative;
     width: 100%;
@@ -127,7 +137,7 @@ h5 {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
-    text-align: center;       
+    text-align: center;
 }
 
 .header {
@@ -141,3 +151,101 @@ h5 {
     display: block;
 }
 
+.container {
+    width: 100%;
+    /* Set the width to 100% by default */
+    margin: 0 auto;
+    /* Center align the div horizontally */
+}
+
+/* For mobile devices with a maximum width of 480px */
+@media (max-width: 390px) {
+    .container {
+        width: 75%;
+    }
+h1 {
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-size: 1.4rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+h4 {
+    font-size: 1rem;
+}
+
+h5 {
+    font-size: 0.8rem;
+}
+
+p {
+    font-size: 0.7rem;
+}
+}
+
+/* For devices with a maximum width of 650px */
+@media (max-width: 820px) {
+    .container {
+        width: 90%;
+        /* Reduce the width for smaller devices */
+    }
+h1 {
+    font-size: 1.8rem;
+}
+
+h2 {
+    font-size: 1.6rem;
+}
+
+h3 {
+    font-size: 1.4rem;
+}
+
+h4 {
+    font-size: 1.2rem;
+}
+
+h5 {
+    font-size: 1rem;
+}
+
+p {
+    font-size: 0.8rem;
+}
+}
+
+/* For devices with a maximum width of 768px */
+@media (max-width: 1280px) {
+    .container {
+        width: 95%;
+        /* Further reduce the width for medium-sized devices */
+    }
+}
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+h3 {
+    font-size: 1.6rem;
+}
+
+h4 {
+    font-size: 1.4rem;
+}
+
+h5 {
+    font-size: 1.2rem;
+}
+
+p {
+    font-size: 0.8rem;
+}
