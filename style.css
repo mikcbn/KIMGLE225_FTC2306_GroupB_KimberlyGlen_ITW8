@@ -1,0 +1,143 @@
+.container {
+    border: 12px solid #6D213C;
+    padding: 20px;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+
+img {
+    border-radius: 50%;
+}
+
+#Menu {
+    margin-top: 20px;
+    padding-top: 20px;
+    height: 270px;
+    width: 200px;
+    background-color: #DDA77B;
+}
+
+h1,
+h2,
+h3,
+h5 {
+    padding: 10px;
+    color: #201f1f;
+    margin-top: 20px;
+}
+
+#Name {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2 {
+    background-color: #DDA77B;
+}
+
+h3,
+h5 {
+    display: inline-block;
+    background-color: #B594B6;
+}
+
+h1,
+h2,
+h3,
+h5,
+p {
+    border-radius: 5px;
+}
+
+#body {
+    text-align: center;
+    font-size: 1.5vw;
+    background-color: #fff2c5;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #201f1f;
+}
+
+h1 {
+    color: rgb(12, 12, 12);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+h2 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: bisque;
+}
+
+h3 {
+    font-family:'Trebuchet MS',
+        'Lucida Sans Unicode',
+        'Lucida Grande',
+        'Lucida Sans',
+        Arial,
+        sans-serif;
+    color: rgb(10, 10, 10);
+}
+
+h5 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(10, 10, 10);
+}
+
+.parent>ul {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    list-style-position: inside;
+    /* Align the bullet points inside the list items */
+}
+
+
+.hero {
+    background-image: url("Saved Pictures/banner-1714907_1280.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 24px;
+}
+.hero {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: #f2f2f2;
+    /* Example background color for the hero section */
+}
+
+.hero-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;       
+}
+
+.header {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.header picture {
+    display: block;
+}
+
